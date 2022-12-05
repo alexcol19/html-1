@@ -95,11 +95,7 @@ ul li:hover ul li{
     object-fit: cover;
 
 }
-.botones{
-    margin - top: 200px;
-    display: flex;
-    justify-content: center;
-}
+
 .slider li:target{
     opacity:1;
 }
