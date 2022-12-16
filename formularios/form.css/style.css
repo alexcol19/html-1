@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+h1{font-size: 3.0em;}
+.header{
+    
+}
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #E5E5E5;
