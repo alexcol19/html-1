@@ -8,15 +8,14 @@
 body{
     background-image: url(/img/Logo.jpg);
     background-repeat: no-repeat;
-    color: rgb(21, 21, 142);
     text-align: center;
     height: 100vh;
-    margin: 0;
-    font-family: monospace;
+    margin: 80px;
+    font-family: cursive;
 }
 .container {
     background-color:black;
-    max-width: 140px;
+    max-width: 1400px;
     display: flex;
     margin: auto;
 }
@@ -39,8 +38,8 @@ h1{color: #fff;
     margin: 10px;
 }
 .galeria img {
-    width: 150px;
-    height:100px
+    width: 280px;
+    height:300px
 }
 /*estilos del modal*/
 
@@ -91,12 +90,17 @@ h1{color: #fff;
     border: 7px solid #fff;
     box-sizing: border-box;
 }
+form{
+    font-size: 1.0em;
+    font-weight: bold;
+    padding: 5px 10px;
+
+}
 button{
     font-size: 1.0em;
     font-weight: bold;
-    text-orientation: upright;
-    padding: 1px 5px;
-    border-radius: 5px;
+    padding: 5px 20px;
+    border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     color: white;
@@ -104,15 +108,14 @@ button{
 }
 .cerrar {
     display: block;
-    background: #fff;
     width: 25px;
     height: 25px;
     margin: 25px auto;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    color: black;
-    padding: 5px;
+    color:#fff;
+    padding: 15px;
     border-radius: 50%;
     line-height: 25px;
 }
